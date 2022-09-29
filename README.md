@@ -1,15 +1,20 @@
-# # Lliach - Project OCSF Mediator
+# # Calculator
 
-## Structure
-Pay attention to the three modules:
-1. **client** - a simple client built using JavaFX and OCSF. We use EventBus (which implements the mediator pattern) in order to pass events between classes (in this case: between SimpleClient and PrimaryController.
-2. **server** - a simple server built using OCSF.
-3. **entities** - a shared module where all the entities of the project live.
+![Screen Shot 2022-09-29 at 13 03 52](https://user-images.githubusercontent.com/100276577/193005054-8f5d3371-1920-4bbb-af7f-f7bff81c8a39.png)
+![Screen Shot 2022-09-29 at 13 03 23](https://user-images.githubusercontent.com/100276577/193005247-1e574d9e-04ad-4943-be2e-13085851f3a5.png)
+![Screen Shot 2022-09-29 at 13 03 31](https://user-images.githubusercontent.com/100276577/193005252-4e77ffe6-ff1b-4df1-bc1a-eaff7cbd740a.png)
 
-## Running
-1. Run Maven install **in the parent project**.
-2. Run the server using the exec:java goal in the server module.
-3. Run the client using the javafx:run goal in the client module.
-4. Press the button and see what happens!
+## Running 
+1. Run Maven clean install.
 
-*notice javafx does not work well on m1 computers
+**MACOS**
+
+2. Go to project file Calculator/target
+3. Open terminal in folder and run : java -jar calculator-1.0-SNAPSHOT.jar
+
+*notice javafx does not work well on M1 computers
+
+**WINDOS**
+
+2. Go to project file Calculator/target
+3. Double click on calculator-1.0-SNAPSHOT.jar
